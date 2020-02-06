@@ -8,6 +8,7 @@
     <Description>Socket.IO Client Library for .Net</Description>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <RepositoryUrl>https://github.com/joewen/EngineIoClientDotNet</RepositoryUrl>
+    <Authors>Joe Wen</Authors>
   </PropertyGroup>
 
   <ItemGroup>
