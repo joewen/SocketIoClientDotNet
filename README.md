@@ -1,21 +1,19 @@
-# THIS PROJECT IS DEPRECATED
-Component is not maintained anymore. See https://github.com/Quobject/EngineIoClientDotNet/issues/69 for more information.
-
-#### SocketIoClientDotNet
-====================
+# SocketIoClientDotNet
 
 Socket.IO Client Library for .Net
 
-* NuGet Package: [![SocketIoClientDotNet](https://img.shields.io/nuget/v/SocketIoClientDotNet.svg?maxAge=2592000)](https://www.nuget.org/packages/SocketIoClientDotNet/)
+Fork from [https://github.com/Quobject/SocketIoClientDotNet](https://github.com/Quobject/SocketIoClientDotNet).
+
+* NuGet Package: [![SocketIoClientDotNet.Standard](https://img.shields.io/nuget/v/SocketIoClientDotNet.Standard.svg?maxAge=2592000)](https://www.nuget.org/packages/SocketIoClientDotNet.Standard/)
 
 This is the Socket.IO Client Library for C#, which is ported from the [JavaScript client](https://github.com/Automattic/socket.io-client) version [1.1.0](https://github.com/socketio/socket.io-client/releases/tag/1.1.0).
 
-See also: [EngineIoClientDotNet](https://github.com/Quobject/EngineIoClientDotNet)
+See also: [EngineIoClientDotNet](https://github.com/joewen/EngineIoClientDotNet)
 
 #### Installation
-[Nuget install](https://www.nuget.org/packages/SocketIoClientDotNet/):
+[Nuget install](https://www.nuget.org/packages/SocketIoClientDotNet.Standard/):
 ```
-Install-Package SocketIoClientDotNet
+Install-Package SocketIoClientDotNet.Standard
 ```
 
 #### Usage
@@ -45,7 +43,7 @@ More examples can be found in [unit tests](https://github.com/Quobject/SocketIoC
 This library supports all of the features the JS client does, including events, options and upgrading transport.
 
 #### Framework Versions
-.NETFramework v3.5, .NETFramework v4.0, .NETFramework v4.5
+.Net Standard 2.0
 
 ## License
 
