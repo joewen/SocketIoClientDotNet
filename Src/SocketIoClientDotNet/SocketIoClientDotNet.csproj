@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <PackageId>SocketIoClientDotNet.Standard</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Socket.IO Client Library for .Net</Description>
@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EngineIoClientDotNet.Standard" Version="0.0.2" />
+    <PackageReference Include="EngineIoClientDotNet.Standard" Version="0.0.3" />
   </ItemGroup>
 
   <ItemGroup>
