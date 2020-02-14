@@ -2,17 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.4</Version>
+    <Version>0.0.5</Version>
     <PackageId>SocketIoClientDotNet.Standard</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Socket.IO Client Library for .NET Standard</Description>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <RepositoryUrl>https://github.com/joewen/EngineIoClientDotNet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/joewen/SocketIoClientDotNet</RepositoryUrl>
     <Authors>Joe Wen</Authors>
+    <PackageProjectUrl>https://github.com/joewen/SocketIoClientDotNet</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EngineIoClientDotNet.Standard" Version="0.0.4" />
+    <PackageReference Include="EngineIoClientDotNet.Standard" Version="0.0.5" />
   </ItemGroup>
 
   <ItemGroup>
